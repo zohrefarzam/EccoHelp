@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "prod:build": "next build"
+    "build": "next build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
