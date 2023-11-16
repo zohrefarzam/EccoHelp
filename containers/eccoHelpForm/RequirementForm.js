@@ -23,25 +23,18 @@ const RequirementForm = () => {
     delete data.errorContact
     delete data.errorName
     const requestOptions = {
-      method: "POST",
+      method: "GET",
       headers: {
         "access-control-allow-origin" : "*",
         'Content-type': 'application/json; charset=UTF-8',
       },
-      body: JSON.stringify({ ...data }),
     };
-    fetch("http://103.75.198.185:1080/book", requestOptions)
+    fetch(`https://eccohelp.com/booking?name=${data.name}&address=${data.address}&contactChannel=${data.contactChannel}&description=${data.description}`, requestOptions)
       .then((response) => {
         if (!response.ok) {
           throw new Error(response.statusText)
       }
-      return response.json()
-    })
-      .then((data) => {
-        console.log(data);
-        if (data.ok) {
-        }
-      }).catch((e)=>console.log(e));
+    }).catch((e)=>console.log(e));
   };
   return (
     <div>
