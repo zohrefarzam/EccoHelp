@@ -37,10 +37,10 @@ const ModernSass = () => {
             <BannerSection />
 
             <FeatureSection />
-
             <BuildSection />
 
-            {/* <WorkSection />
+{/* 
+            <WorkSection />
 
             <PriceSection />
 
@@ -50,11 +50,10 @@ const ModernSass = () => {
 
             <FaqSection />
 
-            <ClientSection />
+            <ClientSection /> */}
 
             <FooterSection />
 
-            <Copyright /> */}
         </div>
         </RequirementFormContextProvider>
     )

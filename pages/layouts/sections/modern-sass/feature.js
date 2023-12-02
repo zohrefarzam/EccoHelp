@@ -35,6 +35,7 @@ const Feature = () => (
                         })
                     }
                 </Row>
+                <h3 style={{fontWeight:'bold', color:'#5738F0'}}>و هر نیازمندیه دیگه ای که دارین...</h3>
             </Container>
         </div>
     </section>

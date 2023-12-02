@@ -24,6 +24,24 @@ module.exports = {
             layout: 'وام',
             desc: 'پرداخت وام های شما در داخل کشور'
         },
+        {
+            img: '/assets/images/saas1/feature/5.png',
+            heading: 'وقت',
+            layout: 'دکتر',
+            desc: "هماهنگی وقت دکتر برای شما به صورت آنلاین"
+        },
+        {
+            img: '/assets/images/saas1/feature/6.png',
+            heading: 'مشاوره',
+            layout: 'حقوقی',
+            desc: "مشاوره جهت امور حقوقی داخل  کشور"
+        },
+        // {
+        //     img: '/assets/images/saas1/feature/4.png',
+        //     heading: 'پرداخت',
+        //     layout: 'وام',
+        //     desc: "و هر نیازمندیه دیگه ای که دارین..."
+        // },
         // {
         //     img: '/assets/images/saas1/feature/5.png',
         //     heading: 'Well',
